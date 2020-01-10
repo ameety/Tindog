@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>TinDog</title>
 
+<!-- for commenting the shortcut is ctrl+/ -->
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
 
@@ -55,15 +56,19 @@
     <!-- title -->
 
     <div class="row">
-
+      <!-- used fontawesome in the below buttons to get the apple and google icons in the download button
+      paste the button element between the two element tags as the icon is not part of the button -->
+      <!-- in the below button types class=btn btn-dark btn-lg comes from standard bootstrap but the "download-button"
+      is introduced manually, which is called custom class to target and format these two specific buttons -->
       <div class="col-lg-6">
         <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-        <button type="button"class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button"class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
       </div>
 
+      <!-- class="title-image" is added to the below image link for image formating  -->
       <divclass="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup">
+        <img class="title-image"src="images/iphone6.png" alt="iphone-mockup">
 
     </div>
     </div>
@@ -89,7 +94,6 @@
 
 
   <!-- Testimonials -->
-
   <section id="testimonials">
 
     <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
