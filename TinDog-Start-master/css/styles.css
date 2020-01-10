@@ -1,13 +1,54 @@
-#title {
-  background: #ff4c68;
+body{
+  font-family: "Montserrat";
 }
 
+#title {
+  background: #ff4c68;
+  color: #fff;
+}
+
+/* use the dot (.) before the class */
 .container-fluid{
   padding: 3% 15%
 }
 
-h1{
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
   line-height: 1.5;
+}
+
+/* navigation bar */
+
+/* 0 padding to top, 0 to left and rigth and 4.5 rem to botthm */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+/* margins are 5% top 3% right 5% left 0% botton */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title-image */
+/* the transform: roate when the value is +ve it rotates to right and when its -ve it rotates to left */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg)
 }
